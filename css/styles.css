@@ -753,6 +753,10 @@ body ul {
   margin: 0;
 }
 
+.modal-inside-form a {
+  color: var(--blue);
+}
+
 .modal-form-input-box {
   margin-top: 4px;
   margin-bottom: 0;
@@ -844,7 +848,7 @@ body ul {
 /* Form inside modal - END */
 
 .close-btn {
-  position: absolute;
+  position: fixed;
   top: 8px;
   right: 8px;
   width: 30px;
